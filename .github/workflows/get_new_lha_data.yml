@@ -6,7 +6,7 @@ on:
 
 jobs:
   Data-Update:
-    runs-on: macos-10.15 # macOS Catalina
+    runs-on: windows-latest
     strategy:
       matrix:
         r-version: [4.0.2] 
